@@ -11,7 +11,7 @@ data = {
 df = pd.DataFrame(data)
 df['Potential_Savings_USD'] = df['Cost_USD'] * df['Savings_Potential']
 
-print("--- EcoPulse Cloud Cost Analysis ---")
+print("---Cloud Cost Analysis ---")
 print(df)
 print(f"\nTotal Potential Monthly Savings: ${df['Potential_Savings_USD'].sum():.2f}")
 print("\n[SUCCESS] Docker container processed the data successfully.")
