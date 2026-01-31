@@ -1,12 +1,12 @@
-# Docker-Lab-1-
-# Lab 1: Containerizing Data Analytics Workflows
+# Lab Submission: Dockerizing Data Analytics Workflows
+**Student:** Clyde
 
-## Modification from Original Lab:
-- **Functionality**: Changed from a static "Hello World" print to a dynamic data processing script using `pandas`.
-- **Environment**: Added a `requirements.txt` file to demonstrate dependency management within Docker.
-- **Use Case**: Implemented a Cloud Cost Analysis logic to simulate a real-world MLOps task.
-- **Optimization**: Used `python:3.11-slim` as the base image to reduce container footprint.
+## Modifications for Lab 1:
+- **Functionality**: Replaced "Hello World" with a dynamic data processing script using Pandas.
+- **Dependency Management**: Added `requirements.txt` to handle external library installation within the container.
+- **Industry Use Case**: Implemented a "Cloud Cost Analysis" (EcoPulse) logic to simulate a real-world MLOps optimization task.
+- **Performance Optimization**: Switched to the `python:3.11-slim` base image for a smaller, faster container footprint.
 
-## Instructions to Run:
-1. Build: `docker build -t cloud-analysis-lab .`
-2. Run: `docker run cloud-analysis-lab`
+## How to Run:
+1. **Build the image**: `docker build -t cloud-analysis-lab .`
+2. **Run the container**: `docker run cloud-analysis-lab`
